@@ -20,5 +20,5 @@ sudo apt-get -y install docker-ce docker-ce-cli containerd.io
 cd /home/deployer/
 wget https://mirrors.estointernet.in/apache/tomcat/tomcat-9/v9.0.50/bin/apache-tomcat-9.0.50.zip
 unzip apache-tomcat-9.0.50.zip
-chown -Rvf deployer:deployer *
+chown -Rvf deployer:deployer /home/deployer/*
 sudo systemctl stop ufw
