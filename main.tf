@@ -40,9 +40,6 @@ resource "google_compute_instance" "vm_instance" {
 
 }
 
-  output "google_compute_instance" {
-  value = google_compute_instance.vm_instance.ipv4_address
-}
 
 resource "google_compute_instance" "vm_instance1" {
   name         =  var.qa
